@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #020210;
+  color: #fff;
+  font-family: 'Courier New', monospace;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  overflow: hidden;
+}
+
+#game-container {
+  text-align: center;
+}
+
+h1 {
+  color: #0ff;
+  text-shadow: 0 0 10px #0ff;
+  letter-spacing: 4px;
+  margin-bottom: 10px;
+}
+
+#hud {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+#hud span {
+  background: rgba(0,0,0,0.6);
+  padding: 4px 12px;
+  border-radius: 4px;
+  border: 1px solid #0ff;
+}
+
+canvas {
+  border: 2px solid #0ff;
+  box-shadow: 0 0 20px #0ff8;
+  background: #000;
+}
+
+#message {
+  height: 24px;
+  margin-top: 8px;
+  color: #f80;
+  font-weight: bold;
+  text-shadow: 0 0 8px #f80;
+}
